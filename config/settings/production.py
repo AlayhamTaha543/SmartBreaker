@@ -14,3 +14,5 @@ DATABASES = {
         ssl_require=True
     )
 }
+WSGI_APPLICATION = 'config.wsgi.app'
+
